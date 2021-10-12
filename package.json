@@ -1,0 +1,21 @@
+{
+  "name": "gitcoin_ceramic",
+  "version": "1.0.0",
+  "description": "files and scripts pertaining to the gitcoin hackathon on ceramic",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://blabla"
+  },
+  "keywords": [
+    "ceramic"
+  ],
+  "author": "LMH",
+  "license": "ISC",
+  "dependencies": {
+    "@ceramicnetwork/http-client": "^1.3.0"
+  }
+}

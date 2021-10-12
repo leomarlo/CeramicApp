@@ -1,0 +1,6 @@
+const {CERAMIC_ENDPOINT_TESTNET, READ_WRITE_NODES} = require('./endpoints.js')
+
+module.exports = {
+    CERAMIC_ENDPOINT: CERAMIC_ENDPOINT_TESTNET,
+    READ_WRITE_NODES: READ_WRITE_NODES
+  };
