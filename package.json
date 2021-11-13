@@ -4,8 +4,12 @@
   "description": "files and scripts pertaining to the gitcoin hackathon on ceramic",
   "main": "index.js",
   "scripts": {
-    "test": "npm run start"
+    "test": "npm run start",
+    "dev": "webpack --mode development"
   },
+  "browserslist": [
+    ">5%"
+  ],
   "repository": {
     "type": "git",
     "url": "https://blabla"
@@ -16,6 +20,6 @@
   "author": "LMH",
   "license": "ISC",
   "dependencies": {
-    "@ceramicnetwork/http-client": "^1.3.0"
+    "@ceramicnetwork/http-client": "^1.4.2"
   }
 }
